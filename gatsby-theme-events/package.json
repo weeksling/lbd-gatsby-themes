@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-events",
+  "name": "@mweeks/gatsby-theme-events",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

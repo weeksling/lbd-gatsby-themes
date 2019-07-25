@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "gatsby": "^2.13.39",
-    "gatsby-theme-events": "*",
+    "@mweeks/gatsby-theme-events": "*",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }

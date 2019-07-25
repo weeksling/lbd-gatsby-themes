@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-theme-events",
+      resolve: "@mweeks/gatsby-theme-events",
       options: {
         contentPath: "events",
         basePath: "/events"
