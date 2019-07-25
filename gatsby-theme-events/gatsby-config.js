@@ -1,6 +1,7 @@
 module.exports = ({ contentPath = "data", basePath = "/" }) => {
   return {
     plugins: [
+      "gatsby-theme-ui",
       {
         resolve: "gatsby-source-filesystem",
         options: {

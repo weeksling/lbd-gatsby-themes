@@ -1,16 +1,17 @@
 import React from "react";
+import { Styled } from "theme-ui";
 
 const Event = ({ name, location, url, startDate, endDate }) => (
   <div>
-    <h2>
+    <Styled.h2>
       {name} ({location})
-    </h2>
-    <p>
+    </Styled.h2>
+    <Styled.p>
       {startDate}-{endDate}
-    </p>
-    <p>
+    </Styled.p>
+    <Styled.p>
       Website: <a href={url}>{url}</a>
-    </p>
+    </Styled.p>
   </div>
 );
 
