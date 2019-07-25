@@ -1,7 +1,17 @@
 import React from "react";
 
-const Event = ({ event }) => {
-  return <h1>TODO implement event component</h1>;
-};
+const Event = ({ name, location, url, startDate, endDate }) => (
+  <div>
+    <h2>
+      {name} ({location})
+    </h2>
+    <p>
+      {startDate}-{endDate}
+    </p>
+    <p>
+      Website: <a href={url}>{url}</a>
+    </p>
+  </div>
+);
 
 export default Event;
