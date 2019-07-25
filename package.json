@@ -1,0 +1,24 @@
+{
+  "name": "lbd-gatsby-themes",
+  "version": "1.0.0",
+  "description": "A sample gatsby-theme",
+  "main": "index.js",
+  "private": true,
+  "workspaces": ["gatsby-theme-events", "site"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weeksling/lbd-gatsby-themes.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "javascript",
+    "react"
+  ],
+  "author": "Matthew Weeks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weeksling/lbd-gatsby-themes/issues"
+  },
+  "homepage": "https://github.com/weeksling/lbd-gatsby-themes#readme"
+}
